@@ -69,16 +69,77 @@ header .container {
     line-height: 2.8rem;
 }
 
+#on-lets-be-friends{
+    font-size: 2rem;
+    line-height: 2.8rem;
+}
+
 #get-ingo-unordered-list{
     list-style-type: none;
     padding-left: 0px;
 }
 
 .img-our-facilitators{
-    height: 200px;
-    width: 200px
+    height: 150px;
+    width: 150px
+}
+
+.img-our-program-mentors{
+    height: 150px;
+    width: 170px;
 }
 
 #be-in-touch-input-element{
     overflow: auto;
+}
+
+
+#nav-bar-color{
+    background-color:#ffffff
+}
+
+#our-program-brochures-bgcolor{
+    background-color: #73467B;
+}
+
+#persona-development-bgcolor{
+    background-color: #73467B
+}
+
+#lets-talk-about-you-bgcolor{
+    background-color: #EED6DB
+}
+
+
+.footer-jumbotron-headings{
+    font-size: 18pt;
+}
+
+#aspire-to-achieve-the-pinnacle{
+    font-size: 32pt;
+}
+
+#the-ascent-ayaansh-courses{
+    font-size: 30pt;
+}
+
+
+#oxford-cambridge-english-bg{
+    background-color: #EED6DB;
+}
+
+#the-success-pillars-bg{
+    background-color: #EED6DB;
+}
+
+#the-ascent-ayaansh-courses-bg{
+    background-color: #EED6DB;
+}
+
+#our-english-laguage-courses-bg{
+    background-color: #EED6DB;
+}
+
+#the-ascent-ayaansh-advantage-bg{
+    background-color: #EED6DB
 }
