@@ -1,3 +1,10 @@
 $(()=>{
-    
+    $('.campus-button').hover(function(){
+        $(this).removeClass('btn-outline-light')
+        $(this).addClass('btn-outline-danger')
+    },
+    function(){
+        $(this).removeClass('btn-outline-danger')
+        $(this).addClass('btn-outline-light')
+    })
 })
