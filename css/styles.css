@@ -143,3 +143,13 @@ header .container {
 #the-ascent-ayaansh-advantage-bg{
     background-color: #EED6DB
 }
+
+.sticky-bottom{
+    position: sticky;
+    top:90vh;
+    z-index:99
+}
+
+.btn-nav-item{
+    font-size: 11pt;
+}
