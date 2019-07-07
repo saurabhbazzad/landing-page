@@ -175,7 +175,7 @@ header .container {
 }
 
 .univ{
-    font-size: 36pt;
+    font-size: 38pt;
 }
 
 .univ-outer{
@@ -188,4 +188,8 @@ header .container {
 
 #feel-comp-confi{
     font-size:36pt;
+}
+
+#our-facilitators{
+    font-size: 32pt;
 }
