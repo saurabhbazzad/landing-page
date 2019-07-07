@@ -8,35 +8,55 @@ $(()=>{
         $(this).addClass('btn-outline-light')
     })
 
+    $('.test2').on('mouseenter',function(e){
+        $(this).children('div').show()
+    })
+    $('.test2').on('mouseleave',function(e){
+        $(this).children('div').hide()
+    })
+
+    //For nested dropdown
+
     // $('.dropdown-submenu a.test').on("mouseenter", function(e){
-    //     $(this).next('ul').toggle();
+    //     $(this).next('ul').show();
     //     e.stopPropagation();
     //     e.preventDefault();
     // });
     // $('.dropdown-submenu a.test').on("mouseleave",function(e){
-    //     $(this).next('ul').toggle()
+    //     $(this).next('ul').hide()
     // })
 
-    $('.test2').on('mouseenter',function(e){
-        $(this).children('div').toggle()
-    })
-    $('.test2').on('mouseleave',function(e){
-        $(this).children('div').toggle()
-    })
+    
 
     $('.test-special').on('mouseenter',function(e){
-        $(this).children('ul').toggle()
+        $(this).children('ul').show()
     })
     $('.test-special').on('mouseleave',function(e){
-        $(this).children('ul').toggle()
-       
+        $(this).children('ul').hide()
     })
 
 
     $('.test').hover(function(e){
-        $(this).next('ul').toggle()
+        $(this).next('ul').show()
     },function(e){
-        $(this).next('ul').toggle()
+        $(this).next('ul').hide()
     })
+
+
+    $('.testing-2').on('mouseenter',function(e){
+        $(this).parent().parent().show()
+        $(this).show()
+        let something=$(this).parent().parent()
+        console.log(something)
+        console.log('fjvedfvfnl')
+    })
+    $('.testing-2').on('mouseleave',function(e){
+        $(this).parent().parent().show()
+        $(this).hide()
+        let something=$(this).parent().parent()
+        console.log(something)
+        console.log('ngjnknvf')
+    })
+
 
 })
