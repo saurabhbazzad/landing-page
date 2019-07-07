@@ -175,13 +175,17 @@ header .container {
 }
 
 .univ{
-    font-size: 48pt;
+    font-size: 42pt;
+}
+
+.univ-outer{
+    font-size: 30pt;
 }
 
 #digi-lit-certi{
-    font-size: 32pt;
+    font-size: 28pt;
 }
 
 #feel-comp-confi{
-    font-size:42pt;
+    font-size:36pt;
 }
