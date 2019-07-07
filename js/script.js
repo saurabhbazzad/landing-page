@@ -79,8 +79,16 @@ $(()=>{
 
     $('#hamburger').on('click',function(){
         w3_open()
+        $('html, body').css({
+            overflow: 'hidden',
+            height: '100%'
+        });
     })
     $('#close-btn-slide-push-menu').on('click',function(){
         w3_close()
+        $('html, body').css({
+            overflow: 'auto',
+            height: 'auto'
+        });
     })
 })

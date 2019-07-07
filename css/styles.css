@@ -198,4 +198,6 @@ header .container {
 #mySidebar{
     display:none;
     z-index:1501;
+    width:25%;
+    right:0;
 }
