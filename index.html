@@ -24,21 +24,40 @@
     <script src="https://kit.fontawesome.com/bc273b3d94.js"></script>
     <!--/Font Awesome-->
 
+    <!--W3.CSS-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!--/W3.CSS-->
+
     <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/script.js"></script>
 </head>
 <body>
+
+    <div class="w3-sidebar w3-bar-block w3-border-right" id="mySidebar">
+        <button id="close-btn-slide-push-menu" class="w3-bar-item w3-large">Close &times;</button>
+        <a href="#" class="w3-bar-item w3-button">AscentIMPACT</a>
+        <a href="#" class="w3-bar-item w3-button">AscentICON</a>
+        <a href="#" class="w3-bar-item w3-button">Let’s Talk</a>
+    </div>
+
+
     <div class="container-fluid my-0">
         <div class="container my-0">
             <div id="phno-top" class="my-0">
-                    <p class="text-right my-0">
-                        <small>
-                            INDIA +91 75872 64886 | OMAN +968 9512 7585
-                        </small>
-                    </p>
-                </div>
+                <p class="text-right my-0">
+                    <small class="mx-2">
+                        INDIA +91 75872 64886 | OMAN +968 9512 7585
+                    </small>
+                    <small class="btn btn-light py-0 mx-2" id="hamburger">
+                        ☰
+                    </small>
+                </p>
+            </div>
         </div>
     </div>
+
+    
+
     <nav class="navbar navbar-expand-lg navbar-light sticky-top py-1" id="nav-bar-color">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

@@ -1,4 +1,8 @@
 $(()=>{
+
+    $('#slide-push').hide()
+
+
     $('.campus-button').hover(function(){
         $(this).removeClass('btn-outline-light')
         $(this).addClass('btn-outline-danger')
@@ -59,4 +63,24 @@ $(()=>{
     })
 
 
+
+    $('#hamburger').on('click',function(e){
+        $('#slide-push').toggle()
+    })
+
+
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+    }
+      
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+    }
+
+    $('#hamburger').on('click',function(){
+        w3_open()
+    })
+    $('#close-btn-slide-push-menu').on('click',function(){
+        w3_close()
+    })
 })
